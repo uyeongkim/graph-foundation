@@ -1,0 +1,41 @@
+{
+  "data": {
+    "dataset": "cora",
+    "data_path": "/workspace/rws/data/cora_standard/",
+    "repo_id": null,
+    "walk_len": 7,
+    "group_size": 15,
+    "p": 1.0,
+    "q": 1.0,
+    "max_length": 512,
+    "vocab_size": 30522,
+    "tokenizer_path": null,
+    "anonymize": false,
+    "split_seed": null
+  },
+  "model": {
+    "d_model": 128,
+    "n_layers": 6,
+    "n_heads": 8,
+    "ffn_dim": 512,
+    "dropout": 0.1,
+    "lr": 1e-05,
+    "batch_size": 128,
+    "num_epochs": 50,
+    "weight_decay": 0.01,
+    "warmup_ratio": 0.1,
+    "grad_acc": 1,
+    "lambda_": 0.0,
+    "max_neg": 5
+  },
+  "system": {
+    "device": "cuda",
+    "multi_gpu": false,
+    "seed": 42,
+    "data_dir": "data",
+    "logs_dir": "logs",
+    "results_dir": "results",
+    "wandb_project": "rw-transformer",
+    "experiment_name": "exp_20250614_204853"
+  }
+}

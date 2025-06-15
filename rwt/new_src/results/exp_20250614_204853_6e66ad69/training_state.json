@@ -1,0 +1,7 @@
+{
+  "epoch": 49,
+  "step": 5450,
+  "best_val_loss": 1.892400795236573,
+  "patience_counter": 1,
+  "completed": true
+}
